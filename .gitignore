@@ -1,4 +1,6 @@
 two/target/
 three/target/
+four/target/
+six/target/
 *.o
 Cargo.lock
