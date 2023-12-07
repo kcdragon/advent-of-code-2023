@@ -1,8 +1,8 @@
 fn main() {
-    let times = [61, 70, 90, 66];
-    let distances = [643, 1184, 1362, 1041];
+    let times: [i64; 1] = [61709066];
+    let distances: [i64; 1] = [643118413621041];
 
-    let mut answer = 1;
+    let mut answer: i64 = 1;
 
     for i in (0..times.len()) {
         let max_time = times[i];
